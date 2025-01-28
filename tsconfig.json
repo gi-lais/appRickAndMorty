@@ -1,0 +1,20 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
+    "types": [
+      "jest",
+      "node"
+    ],
+    "moduleResolution": "node"
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.setup.ts"
+  ]
+}
